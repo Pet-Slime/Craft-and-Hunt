@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+	],
+	"optional": [
+		"craftandhunt:spider_fermented_shovel",
+		"craftandhunt:spider_fermented_axe",
+		"craftandhunt:spider_fermented_hoe",
+		"craftandhunt:spider_fermented_sword",
+		"craftandhunt:spider_fermented_pickaxe"
+	]
+}

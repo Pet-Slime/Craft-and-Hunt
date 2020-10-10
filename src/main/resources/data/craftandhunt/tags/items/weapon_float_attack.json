@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+	],
+	"optional": [
+		"craftandhunt:shulker_shovel",
+		"craftandhunt:shulker_axe",
+		"craftandhunt:shulker_hoe",
+		"craftandhunt:shulker_sword",
+		"craftandhunt:shulker_pickaxe"
+	]
+}
