@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:shark_sword"
+    ]
+  },
+  "criteria": {
+    "has_OptionalNamedTag[craftandhunt:shark_teeth]": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "craftandhunt:shark_teeth"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:shark_sword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_OptionalNamedTag[craftandhunt:shark_teeth]",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:wither_upgraded_to_u_wither_helmet"
+    ]
+  },
+  "criteria": {
+    "has_beacon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:beacon"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:wither_upgraded_to_u_wither_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_beacon",
+      "has_the_recipe"
+    ]
+  ]
+}

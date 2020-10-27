@@ -1,4 +1,4 @@
-package com.aavri.craftandhunt.init;
+	package com.aavri.craftandhunt.init;
 
 import com.aavri.craftandhunt.Constants;
 import com.aavri.craftandhunt.config.Config;

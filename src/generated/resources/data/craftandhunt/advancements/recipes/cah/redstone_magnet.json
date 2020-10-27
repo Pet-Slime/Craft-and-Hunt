@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:redstone_magnet"
+    ]
+  },
+  "criteria": {
+    "has_red_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/redstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:redstone_magnet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_red_stone",
+      "has_the_recipe"
+    ]
+  ]
+}

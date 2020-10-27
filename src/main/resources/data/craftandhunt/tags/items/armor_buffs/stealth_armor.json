@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+
+	],
+	"optional": [
+		"craftandhunt:silverfish_chestplate",
+		"craftandhunt:silverfish_leggings",
+		"craftandhunt:silverfish_boots",
+		"craftandhunt:silverfish_helmet",
+		"craftandhunt:endermite_chestplate",
+		"craftandhunt:endermite_leggings",
+		"craftandhunt:endermite_boots",
+		"craftandhunt:endermite_helmet"
+	]
+}

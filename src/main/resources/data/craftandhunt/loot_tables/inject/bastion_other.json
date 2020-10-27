@@ -1,0 +1,91 @@
+{
+	"pools": [{
+		"name": "main",
+		"rolls": 1,
+		"entries": [{
+				"type": "item",
+				"name": "craftandhunt:branch_splinter",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:parasite_glutton",
+				"weight": 5
+			},
+			{
+				"type": "empty",
+				"weight": 30
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:blaze_glass",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:strider_rock",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:piglin_emblem",
+				"weight": 30
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:hoglin_leather",
+				"weight": 10
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:golem_kit",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:tasty_bone",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:evokers_book",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:roc_feather",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:firecharge_rod",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:lightning_rod",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:death_cap",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:wind_horn",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:buzzy_nest",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:sunken_temple_desc",
+				"weight": 1
+			}
+		]
+	}]
+}

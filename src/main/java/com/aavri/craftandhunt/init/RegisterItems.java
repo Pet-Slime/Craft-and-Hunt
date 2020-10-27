@@ -55,11 +55,9 @@ public class RegisterItems {
 															() -> new GluttonParasiteItem(new Item.Properties().group(CreativeTab.HUNT), 300));
 	public static final RegistryObject<Item> parasite_starved = ITEMS.register("parasite_starved", 
 															() -> new Item(new Item.Properties().group(CreativeTab.HUNT)));
-	
-
 	public static final RegistryObject<Item> branch_splinter = ITEMS.register("branch_splinter", 
 															() -> new WoodenSplinterItem(new Item.Properties().group(CreativeTab.HUNT)));
-	public static final RegistryObject<Item> branch_splinter_bloody = ITEMS.register("bloodied_branch_splinter", 
+	public static final RegistryObject<Item> branch_splinter_bloody = ITEMS.register("branch_splinter_bloody", 
 															() -> new Item(new Item.Properties().group(CreativeTab.HUNT)));
 	
 	public static final RegistryObject<Item> bear_polar_leather = ITEMS.register("bear_polar_leather", 
@@ -144,11 +142,4 @@ public class RegisterItems {
 															() -> new Item(new Item.Properties().group(CreativeTab.HUNT)));
 	public static final RegistryObject<Item> endermite_mass = ITEMS.register("endermite_mass", 
 															() -> new Item(new Item.Properties().group(CreativeTab.HUNT)));
-	
-
-	
-	
-
-
-
 }

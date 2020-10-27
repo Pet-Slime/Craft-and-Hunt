@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:wolf_upgraded_to_fox_fire_boots"
+    ]
+  },
+  "criteria": {
+    "has_OptionalNamedTag[craftandhunt:fire_fox]": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "craftandhunt:fire_fox"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:wolf_upgraded_to_fox_fire_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_OptionalNamedTag[craftandhunt:fire_fox]",
+      "has_the_recipe"
+    ]
+  ]
+}

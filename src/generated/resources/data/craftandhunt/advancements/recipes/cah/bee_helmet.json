@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:bee_helmet"
+    ]
+  },
+  "criteria": {
+    "has_bee_chitin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:bee_chitin"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:bee_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bee_chitin",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "craftandhunt:armor/blaze_boots"
+        "layer0": "craftandhunt:armor/u_blaze_boots"
     }
 }

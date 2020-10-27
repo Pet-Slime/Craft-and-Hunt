@@ -1,0 +1,107 @@
+{
+	"pools": [{
+		"name": "main",
+		"rolls": 5,
+		"entries": [{
+				"type": "item",
+				"name": "craftandhunt:bear_polar_leather",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:spider_chitin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:spider_poison_chitin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:spider_fermented_chitin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:bee_chitin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:hoglin_leather",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:bear_panda_leather",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:bear_brown_leather",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:bear_black_leather",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:shark_skin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:thrasher_skin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:thrasher_great_skin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:guardian_skin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:guardian_elder_skin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:wolf_hide",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:fox_hide",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:fox_fire_hide",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:goat_hide",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:silverfish_chitin",
+				"weight": 5
+			},
+			{
+				"type": "item",
+				"name": "craftandhunt:endermite_mass",
+				"weight": 5
+			}
+		]
+	}]
+}

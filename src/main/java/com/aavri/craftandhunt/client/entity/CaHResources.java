@@ -22,17 +22,17 @@ public class CaHResources {
     public static Object getArmorModel(int armorId, EquipmentSlotType slot) {
         switch (armorId) {
             case 0:
-                return new CanineArmorModel(1.0F, slot);
-            case 1:
                 return new CanineArmorModel(0.5F, slot);
+            case 1:
+                return new CanineArmorModel(0.3F, slot);
             case 2:
-                return new HoglinArmorModel(1.0F, slot);
-            case 3:
                 return new HoglinArmorModel(0.5F, slot);
+            case 3:
+                return new HoglinArmorModel(0.3F, slot);
             case 4:
-                return new StalkerArmorModel(1.0F, slot);
-            case 5:
                 return new StalkerArmorModel(0.5F, slot);
+            case 5:
+                return new StalkerArmorModel(0.3F, slot);
         }
         return null;
     }

@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "craftandhunt:armor/u_naut_leggings"
+        "layer0": "craftandhunt:armor/naut_leggings"
     }
 }

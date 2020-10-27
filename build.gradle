@@ -93,7 +93,10 @@ minecraft {
 			
 			property 'mixin.env.disableRefMap', 'true'
 
-            args '--mod', 'craftandhunt', '--all', '--output', file('src/main/resources/')
+            args '--mod', 'craftandhunt', '--all',
+                    '--existing', '"' + file('src/main/resources/') + '"',
+                    '--existing', '"' + file('src/generated/resources/') + '"',
+                    '--output', '"' + file('src/generated/resources/') + '"'
 
             mods {
                 craftandhunt {

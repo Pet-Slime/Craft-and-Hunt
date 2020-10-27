@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+	],
+	"optional": [
+		"craftandhunt:shark_chestplate",
+		"craftandhunt:shark_leggings",
+		"craftandhunt:shark_boots",
+		"craftandhunt:shark_helmet",
+		"craftandhunt:thrasherchestplate",
+		"craftandhunt:thrasherleggings",
+		"craftandhunt:thrasherboots",
+		"craftandhunt:thrasherhelmet",
+		"craftandhunt:thrasher_great_chestplate",
+		"craftandhunt:thrasher_great_leggings",
+		"craftandhunt:thrasher_great_boots",
+		"craftandhunt:thrasher_great_helmet",
+		"craftandhunt:u_shark_chestplate",
+		"craftandhunt:u_shark_leggings",
+		"craftandhunt:u_shark_boots",
+		"craftandhunt:u_shark_helmet"
+	]
+}
