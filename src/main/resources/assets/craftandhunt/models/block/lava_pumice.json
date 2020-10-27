@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "craftandhunt:block/lava_pumice",
+    "down": "craftandhunt:block/lava_pumice",
+    "north": "craftandhunt:block/lava_pumice",
+    "south": "craftandhunt:block/lava_pumice",
+    "east": "craftandhunt:block/lava_pumice",
+    "west": "craftandhunt:block/lava_pumice",
+    "particle": "craftandhunt:block/lava_pumice"
+  }
+}

@@ -1,0 +1,185 @@
+{
+	"modsRequired": ["craftandhunt"],
+	"content": [{
+			"type": "item",
+			"content": "craftandhunt:wither_spine",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:fire_heart",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:vampire_fang",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:venom_sack",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:witch_book",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:witch_know",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:super_ink_sack",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:fox_tail",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:redstone_magnet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:totem_of_regen",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:totem_of_block",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:puff_shroom",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:impact_slime",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:wind_horn",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1800,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:death_cap",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1800,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:lightning_rod",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1800,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:roc_feather",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1800,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:seed_cluster",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weight": 500
+		}
+		
+	]
+}

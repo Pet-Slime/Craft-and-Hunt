@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:spear_netherite"
+    ]
+  },
+  "criteria": {
+    "has_OptionalNamedTag[forge:ingots/netherite]": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/netherite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:spear_netherite"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_OptionalNamedTag[forge:ingots/netherite]",
+      "has_the_recipe"
+    ]
+  ]
+}

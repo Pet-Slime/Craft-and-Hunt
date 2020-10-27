@@ -1,0 +1,165 @@
+{
+  "modsRequired": ["craftandhunt"],
+  "content": [
+    {
+      "type": "item",
+      "content": "craftandhunt:bone_chestplate",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:bone_helmet",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:bone_leggings",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:bone_boots",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_chestplate",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_helmet",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_leggings",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_boots",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wolf_chestplate",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wolf_helmet",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wolf_leggings",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wolf_boots",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:guardian_chestplate",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:guardian_helmet",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:guardian_leggings",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:guardian_boots",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"replace": false,
+	"values": [
+
+	],
+	"optional": [
+		"craftandhunt:wolf_chestplate",
+		"craftandhunt:wolf_leggings",
+		"craftandhunt:wolf_boots",
+		"craftandhunt:wolf_helmet",
+		"craftandhunt:fox_chestplate",
+		"craftandhunt:fox_leggings",
+		"craftandhunt:fox_boots",
+		"craftandhunt:fox_helmet",
+		"craftandhunt:fox_fire_chestplate",
+		"craftandhunt:fox_fire_leggings",
+		"craftandhunt:fox_fire_boots",
+		"craftandhunt:fox_fire_helmet",
+		"craftandhunt:u_fox_chestplate",
+		"craftandhunt:u_fox_leggings",
+		"craftandhunt:u_fox_boots",
+		"craftandhunt:u_fox_helmet"
+	]
+}

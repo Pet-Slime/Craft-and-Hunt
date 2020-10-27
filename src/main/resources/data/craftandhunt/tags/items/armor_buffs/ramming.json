@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		
+	],
+	"optional": [
+		"craftandhunt:goat_chestplate",
+		"craftandhunt:goat_leggings",
+		"craftandhunt:goat_boots",
+		"craftandhunt:goat_helmet",
+		"craftandhunt:u_goat_chestplate",
+		"craftandhunt:u_goat_leggings",
+		"craftandhunt:u_goat_boots",
+		"craftandhunt:u_goat_helmet"
+	]
+}

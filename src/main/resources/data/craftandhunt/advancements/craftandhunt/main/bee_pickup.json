@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "craftandhunt:bee_chitin"
+    },
+    "title": {
+      "translate": "advancement.craftandhunt:beePickup"
+    },
+    "description": {
+      "translate": "advancement.craftandhunt:beePickup.desc"
+    }
+  },
+  "parent": "craftandhunt:main/root",
+  "criteria": {
+    "bee": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:bee_chitin"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+	],
+	"optional": [
+		"craftandhunt:crab_shell",
+		"quark:crab_shell"
+	]
+}

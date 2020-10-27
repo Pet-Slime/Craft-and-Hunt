@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "facing=north,open=true": { "model": "craftandhunt:block/beartrap_powered" },
+        "facing=south,open=true": { "model": "craftandhunt:block/beartrap_powered", "y": 180 },
+        "facing=west,open=true":  { "model": "craftandhunt:block/beartrap_powered", "y": 270 },
+        "facing=east,open=true":  { "model": "craftandhunt:block/beartrap_powered", "y": 90 },
+        "facing=north,open=false": { "model": "craftandhunt:block/beartrap_powered_on" },
+        "facing=south,open=false": { "model": "craftandhunt:block/beartrap_powered_on", "y": 180 },
+        "facing=west,open=false":  { "model": "craftandhunt:block/beartrap_powered_on", "y": 270 },
+        "facing=east,open=false":  { "model": "craftandhunt:block/beartrap_powered_on", "y": 90 }
+    }
+}

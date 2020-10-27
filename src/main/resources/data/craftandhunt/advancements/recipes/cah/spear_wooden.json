@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:spear_wooden"
+    ]
+  },
+  "criteria": {
+    "has_NamedTag[minecraft:planks]": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:spear_wooden"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_NamedTag[minecraft:planks]",
+      "has_the_recipe"
+    ]
+  ]
+}

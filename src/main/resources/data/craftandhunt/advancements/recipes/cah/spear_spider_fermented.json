@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:spear_spider_fermented"
+    ]
+  },
+  "criteria": {
+    "has_spider_fermented_chitin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:spider_fermented_chitin"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:spear_spider_fermented"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spider_fermented_chitin",
+      "has_the_recipe"
+    ]
+  ]
+}

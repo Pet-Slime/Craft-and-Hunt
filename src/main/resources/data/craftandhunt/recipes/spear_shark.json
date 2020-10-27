@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xyx",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "tag": "craftandhunt:shark_teeth"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:spear_shark"
+  }
+}

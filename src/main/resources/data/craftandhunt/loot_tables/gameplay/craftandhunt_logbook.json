@@ -1,0 +1,18 @@
+{
+	"type": "advancement_reward",
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "patchouli:guide_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{\"patchouli:book\": \"craftandhunt:huntersguide\"}"
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,165 @@
+{
+  "modsRequired": ["craftandhunt"],
+  "content": [
+    {
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_poison_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_poison_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_poison_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_poison_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_fermented_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:shell_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:shell_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:shell_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:shell_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wither_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wither_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wither_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:wither_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    }
+  ]
+}

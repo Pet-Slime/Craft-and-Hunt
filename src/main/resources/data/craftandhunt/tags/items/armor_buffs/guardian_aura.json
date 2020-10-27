@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		
+	],
+	"optional": [
+		"craftandhunt:guardian_elder_chestplate",
+		"craftandhunt:guardian_elder_leggings",
+		"craftandhunt:guardian_elder_boots",
+		"craftandhunt:guardian_elder_helmet",
+		"craftandhunt:u_guardian_elder_chestplate",
+		"craftandhunt:u_guardian_elder_leggings",
+		"craftandhunt:u_guardian_elder_boots",
+		"craftandhunt:u_guardian_elder_helmet"
+	]
+}

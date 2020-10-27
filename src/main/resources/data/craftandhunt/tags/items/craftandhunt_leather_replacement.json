@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+	],
+	"optional": [
+		"craftandhunt:wolf_hide",
+		"craftandhunt:bear_brown_leather",
+		"craftandhunt:bear_black_leather",
+		"craftandhunt:bear_panda_leather",
+		"craftandhunt:bear_polar_leather",
+		"craftandhunt:fox_fire_hide",
+		"craftandhunt:fox_hide",
+		"craftandhunt:goat_hide",
+		"craftandhunt:guardian_elder_skin",
+		"craftandhunt:guardian_skin",
+		"craftandhunt:shark_skin",
+		"craftandhunt:thrasher_great_skin",
+		"craftandhunt:thrasher_skin",	
+		"craftandhunt:hoglin_leather"
+	]
+}

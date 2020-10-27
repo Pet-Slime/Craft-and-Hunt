@@ -1,0 +1,28 @@
+{
+	"replace": false,
+	"values": [
+		
+	],
+	"optional": [
+		"craftandhunt:bone_chestplate",
+		"craftandhunt:bone_leggings",
+		"craftandhunt:bone_boots",
+		"craftandhunt:bone_helmet",
+		"craftandhunt:stray_chestplate",
+		"craftandhunt:stray_leggings",
+		"craftandhunt:stray_boots",
+		"craftandhunt:stray_helmet",
+		"craftandhunt:wither_chestplate",
+		"craftandhunt:wither_leggings",
+		"craftandhunt:wither_boots",
+		"craftandhunt:wither_helmet",
+		"craftandhunt:u_wither_chestplate",
+		"craftandhunt:u_wither_leggings",
+		"craftandhunt:u_wither_boots",
+		"craftandhunt:u_wither_helmet",
+		"craftandhunt:u_stray_chestplate",
+		"craftandhunt:u_stray_leggings",
+		"craftandhunt:u_stray_boots",
+		"craftandhunt:u_stray_helmet"
+	]
+}

@@ -1,0 +1,284 @@
+{
+	"modsRequired": ["craftandhunt"],
+	"content": [{
+			"type": "item",
+			"content": "craftandhunt:stray_helmet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:stray_chestplate",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:stray_leggings",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:stray_boots",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_poison_helmet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_poison_chestplate",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_poison_leggings",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_poison_boots",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_fermented_helmet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_fermented_chestplate",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_fermented_leggings",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:spider_fermented_boots",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:fox_fire_helmet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:fox_fire_chestplate",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:fox_fire_leggings",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:fox_fire_boots",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shark_helmet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shark_chestplate",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shark_leggings",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shark_boots",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:guardian_elder_helmet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:guardian_elder_chestplate",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:guardian_elder_leggings",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:guardian_elder_boots",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shulker_helmet",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shulker_chestplate",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shulker_leggings",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		},
+		{
+			"type": "item",
+			"content": "craftandhunt:shulker_boots",
+			"amountRange": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"weight": 100
+		}
+	]
+}

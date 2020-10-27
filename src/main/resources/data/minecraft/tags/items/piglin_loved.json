@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "craftandhunt:piglin_armbrace",
+    "craftandhunt:piglin_emblem",
+    "craftandhunt:piglin_gold_block",
+    "craftandhunt:golden_lantern",
+    "craftandhunt:golden_soul_lantern"
+  ]
+}

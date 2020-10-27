@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:spear_blaze"
+    ]
+  },
+  "criteria": {
+    "has_blaze_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:blaze_glass"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:spear_blaze"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blaze_glass",
+      "has_the_recipe"
+    ]
+  ]
+}

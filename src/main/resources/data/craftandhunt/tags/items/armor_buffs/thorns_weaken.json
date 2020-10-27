@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    
+	],
+	"optional": [
+		"craftandhunt:blaze_chestplate",
+		"craftandhunt:blaze_leggings",
+		"craftandhunt:blaze_boots",
+		"craftandhunt:blaze_helmet",
+		"craftandhunt:u_blaze_chestplate",
+		"craftandhunt:u_blaze_leggings",
+		"craftandhunt:u_blaze_boots",
+		"craftandhunt:u_blaze_helmet"
+	]
+}

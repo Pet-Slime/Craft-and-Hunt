@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	],
+	"optional": [
+		"craftandhunt:crab_helmet",
+		"craftandhunt:naut_helmet",
+		"craftandhunt:u_shell_helmet"
+	]
+}

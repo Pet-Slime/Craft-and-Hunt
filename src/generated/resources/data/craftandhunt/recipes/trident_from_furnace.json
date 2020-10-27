@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "craftandhunt:unfinished_trident"
-  },
-  "result": "minecraft:trident",
-  "experience": 1.0,
-  "cookingtime": 200
-}

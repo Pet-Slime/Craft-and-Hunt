@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xyx",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:spider_chitin"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:spear_spider"
+  }
+}

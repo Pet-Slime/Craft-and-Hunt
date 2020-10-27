@@ -1,0 +1,125 @@
+{
+  "modsRequired": ["craftandhunt"],
+  "content": [
+    {
+      "type": "item",
+      "content": "craftandhunt:bone_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:bone_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:bone_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:bone_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:spider_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:blaze_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:blaze_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:blaze_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    },
+	{
+      "type": "item",
+      "content": "craftandhunt:blaze_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1900,
+      "weight": 500
+    }
+  ]
+}

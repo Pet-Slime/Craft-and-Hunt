@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+	],
+	"optional": [
+		"craftandhunt:bone_shovel",
+		"craftandhunt:bone_axe",
+		"craftandhunt:bone_hoe",
+		"craftandhunt:bone_sword",
+		"craftandhunt:bone_pickaxe"
+	]
+}

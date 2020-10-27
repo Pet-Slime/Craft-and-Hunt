@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+	],
+	"optional": [
+		"craftandhunt:horror_helmet",
+		"craftandhunt:horror_chestplate",
+		"craftandhunt:horror_leggings",		
+		"craftandhunt:horror_boots"
+	]
+}

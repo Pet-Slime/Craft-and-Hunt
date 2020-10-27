@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "craftandhunt:bear_flank"
-  },
-  "result": "craftandhunt:cooked_bear_flank",
-  "experience": 0.35,
-  "cookingtime": 200
-}

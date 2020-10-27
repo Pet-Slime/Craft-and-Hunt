@@ -1,0 +1,27 @@
+{
+	"replace": false,
+	"values": [
+	],
+	"optional": [
+		"craftandhunt:spider_chestplate",
+		"craftandhunt:spider_leggings",
+		"craftandhunt:spider_boots",
+		"craftandhunt:spider_helmet",
+		"craftandhunt:spider_poison_chestplate",
+		"craftandhunt:spider_poison_leggings",
+		"craftandhunt:spider_poison_boots",
+		"craftandhunt:spider_poison_helmet",
+		"craftandhunt:spider_fermented_chestplate",
+		"craftandhunt:spider_fermented_leggings",
+		"craftandhunt:spider_fermented_boots",
+		"craftandhunt:spider_fermented_helmet",
+		"craftandhunt:u_spider_poison_chestplate",
+		"craftandhunt:u_spider_poison_leggings",
+		"craftandhunt:u_spider_poison_boots",
+		"craftandhunt:u_spider_poison_helmet",
+		"craftandhunt:u_spider_fermented_chestplate",
+		"craftandhunt:u_spider_fermented_leggings",
+		"craftandhunt:u_spider_fermented_boots",
+		"craftandhunt:u_spider_fermented_helmet"
+	]
+}

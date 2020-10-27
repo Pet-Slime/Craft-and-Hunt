@@ -1,0 +1,40 @@
+{
+  "replace": false,
+  "values": [
+    "craftandhunt:bear_panda_chestplate",
+	"craftandhunt:bear_panda_leggings",
+	"craftandhunt:bear_panda_boots",
+	"craftandhunt:bear_panda_helmet",
+    "craftandhunt:bear_polar_chestplate",
+	"craftandhunt:bear_polar_leggings",
+	"craftandhunt:bear_polar_boots",
+	"craftandhunt:bear_polar_helmet",
+    "craftandhunt:bear_black_chestplate",
+	"craftandhunt:bear_black_leggings",
+	"craftandhunt:bear_black_boots",
+	"craftandhunt:bear_black_helmet",
+    "craftandhunt:bear_brown_chestplate",
+	"craftandhunt:bear_brown_leggings",
+	"craftandhunt:bear_brown_boots",
+	"craftandhunt:bear_brown_helmet"
+	
+	],
+	"optional": [
+		"craftandhunt:u_bear_panda_chestplate",
+		"craftandhunt:u_bear_panda_leggings",
+		"craftandhunt:u_bear_panda_boots",
+		"craftandhunt:u_bear_panda_helmet",
+		"craftandhunt:u_bear_polar_chestplate",
+		"craftandhunt:u_bear_polar_leggings",
+		"craftandhunt:u_bear_polar_boots",
+		"craftandhunt:u_bear_polar_helmet",
+		"craftandhunt:u_bear_black_chestplate",
+		"craftandhunt:u_bear_black_leggings",
+		"craftandhunt:u_bear_black_boots",
+		"craftandhunt:u_bear_black_helmet",
+		"craftandhunt:u_bear_brown_chestplate",
+		"craftandhunt:u_bear_brown_leggings",
+		"craftandhunt:u_bear_brown_boots",
+		"craftandhunt:u_bear_brown_helmet"
+	]
+}

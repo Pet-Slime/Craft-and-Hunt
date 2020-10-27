@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+	],
+	"optional": [
+		"craftandhunt:strider_chestplate",
+		"craftandhunt:strider_leggings",
+		"craftandhunt:strider_boots",
+		"craftandhunt:strider_helmet",
+		"craftandhunt:u_blaze_chestplate",
+		"craftandhunt:u_blaze_leggings",
+		"craftandhunt:u_blaze_boots",
+		"craftandhunt:u_blaze_helmet"
+	]
+}

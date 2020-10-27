@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: Craft and Hunt
+Implementation-Version: 2.2.5
+Specification-Vendor: aavri, candycanecazoo
+Specification-Title: Craft and Hunt
+Implementation-Vendor-Id: com.aavri.craftandhunt
+Implementation-Timestamp: 2020-10-22T02:12:32-0500
+Specification-Version: 1.0
+Implementation-URL: https://www.curseforge.com/minecraft/mc-mods/craft
+ -and-hunt
+Implementation-Vendor: aavri, candycanecazoo
+

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "craftandhunt:block/blaze_glass_block"
+  }
+}

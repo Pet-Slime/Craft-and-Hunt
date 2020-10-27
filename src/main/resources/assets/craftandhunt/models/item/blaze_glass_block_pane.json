@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "craftandhunt:block/blaze_glass_block"
+  }
+}

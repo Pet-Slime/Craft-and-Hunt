@@ -1,0 +1,24 @@
+{
+	"replace": false,
+	"values": [
+		
+	],
+	"optional": [
+		"craftandhunt:bee_chestplate",
+		"craftandhunt:bee_leggings",
+		"craftandhunt:bee_boots",
+		"craftandhunt:bee_helmet",
+		"craftandhunt:nest_chestplate",
+		"craftandhunt:nest_leggings",
+		"craftandhunt:nest_boots",
+		"craftandhunt:nest_helmet",
+		"craftandhunt:hive_chestplate",
+		"craftandhunt:hive_leggings",
+		"craftandhunt:hive_boots",
+		"craftandhunt:hive_helmet",
+		"craftandhunt:u_bee_chestplate",
+		"craftandhunt:u_bee_leggings",
+		"craftandhunt:u_bee_boots",
+		"craftandhunt:u_bee_helmet"
+	]
+}

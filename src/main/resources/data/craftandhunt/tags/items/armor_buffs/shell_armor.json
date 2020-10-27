@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "craftandhunt:shell_chestplate",
+	"craftandhunt:shell_leggings",
+	"craftandhunt:shell_boots",
+	"minecraft:turtle_helmet"
+	],
+	"optional": [
+		"craftandhunt:shulker_chestplate",
+		"craftandhunt:shulker_leggings",
+		"craftandhunt:shulker_boots",
+		"craftandhunt:shulker_helmet",
+		"craftandhunt:u_shulker_chestplate",
+		"craftandhunt:u_shulker_leggings",
+		"craftandhunt:u_shulker_boots",
+		"craftandhunt:u_shulker_helmet",
+		"craftandhunt:crab_chestplate",
+		"craftandhunt:crab_leggings",
+		"craftandhunt:crab_boots",
+		"craftandhunt:crab_helmet",
+		"craftandhunt:u_shell_chestplate",
+		"craftandhunt:u_shell_leggings",
+		"craftandhunt:u_shell_boots",
+		"craftandhunt:u_shell_helmet",
+		"craftandhunt:naut_chestplate",
+		"craftandhunt:naut_leggings",
+		"craftandhunt:naut_boots",
+		"craftandhunt:naut_helmet"
+	]
+}

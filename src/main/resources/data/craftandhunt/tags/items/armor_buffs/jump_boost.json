@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+	],
+	"optional": [
+		"craftandhunt:phantom_chestplate",
+		"craftandhunt:phantom_leggings",
+		"craftandhunt:phantom_boots",
+		"craftandhunt:phantom_helmet",
+		"craftandhunt:u_phantom_chestplate",
+		"craftandhunt:u_phantom_leggings",
+		"craftandhunt:u_phantom_boots",
+		"craftandhunt:u_phantom_helmet"
+	]
+}

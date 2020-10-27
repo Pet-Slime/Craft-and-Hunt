@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xyx",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:blaze_glass"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:spear_blaze"
+  }
+}
