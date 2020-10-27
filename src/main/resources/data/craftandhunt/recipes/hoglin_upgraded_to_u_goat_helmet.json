@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:hoglin_helmet"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_helmet"
+  },
+  "result": {
+    "item": "craftandhunt:u_goat_helmet"
+  }
+}

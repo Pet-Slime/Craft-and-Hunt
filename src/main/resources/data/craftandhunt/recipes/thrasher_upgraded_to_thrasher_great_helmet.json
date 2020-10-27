@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:thrasher_helmet"
+  },
+  "addition": {
+    "item": "craftandhunt:thrasher_great_skin"
+  },
+  "result": {
+    "item": "craftandhunt:thrasher_great_helmet"
+  }
+}

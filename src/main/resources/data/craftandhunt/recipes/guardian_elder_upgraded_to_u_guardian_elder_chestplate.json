@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:guardian_elder_chestplate"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_chestplate"
+  },
+  "result": {
+    "item": "craftandhunt:u_guardian_elder_chestplate"
+  }
+}

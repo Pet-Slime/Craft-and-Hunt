@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:bear_panda_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_bear_panda_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:bear_panda_leather"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:bear_panda_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bear_panda_leather",
+      "has_the_recipe"
+    ]
+  ]
+}

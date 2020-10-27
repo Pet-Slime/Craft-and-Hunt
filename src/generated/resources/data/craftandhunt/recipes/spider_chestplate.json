@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spider_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:spider_chitin"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:spider_chestplate"
+  }
+}

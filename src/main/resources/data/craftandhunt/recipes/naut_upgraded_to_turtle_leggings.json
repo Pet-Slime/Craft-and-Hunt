@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:naut_leggings"
+  },
+  "addition": {
+    "item": "minecraft:scute"
+  },
+  "result": {
+    "item": "craftandhunt:shell_leggings"
+  }
+}

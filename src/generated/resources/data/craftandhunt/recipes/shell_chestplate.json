@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "turtle_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:scute"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:shell_chestplate"
+  }
+}

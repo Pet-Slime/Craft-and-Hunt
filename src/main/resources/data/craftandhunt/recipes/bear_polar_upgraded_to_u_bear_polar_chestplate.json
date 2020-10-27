@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:bear_polar_chestplate"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_chestplate"
+  },
+  "result": {
+    "item": "craftandhunt:u_bear_polar_chestplate"
+  }
+}

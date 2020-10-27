@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:guardian_elder_boots"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_boots"
+  },
+  "result": {
+    "item": "craftandhunt:u_guardian_elder_boots"
+  }
+}

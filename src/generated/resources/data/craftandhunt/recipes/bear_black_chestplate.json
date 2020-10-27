@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "black_bear_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:bear_black_leather"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:bear_black_chestplate"
+  }
+}

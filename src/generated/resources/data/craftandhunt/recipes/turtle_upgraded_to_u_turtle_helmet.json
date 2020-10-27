@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:turtle_helmet"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_helmet"
+  },
+  "result": {
+    "item": "craftandhunt:u_shell_helmet"
+  }
+}

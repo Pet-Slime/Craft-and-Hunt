@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "tag": "forge:storage_blocks/gold"
+  },
+  "result": {
+    "item": "craftandhunt:t_iron_helmet"
+  }
+}

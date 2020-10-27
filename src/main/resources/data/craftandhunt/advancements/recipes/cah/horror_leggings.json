@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:horror_leggings"
+    ]
+  },
+  "criteria": {
+    "has_parasite_starved": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:parasite_starved"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:horror_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_parasite_starved",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,7 +1,7 @@
 package com.aavri.craftandhunt.items.tools;
 
 import com.aavri.craftandhunt.config.Config;
-import com.aavri.craftandhunt.util.RegisterItems;
+import com.aavri.craftandhunt.init.RegisterItems;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
@@ -25,16 +25,16 @@ public class ToolMaterialbyItem {
     																	RegisterItems.spider_chitin.get());
     
     public static final IItemTier spiderPoison = new 	ToolMaterial(Config.spider_tool_harvestLevel.get(), 
-    																	(int) Math.round(Config.spider_tool_durability.get() * 1.25), 
+    																	(int) Math.round(Config.spider_tool_durability.get() * 1.5), 
     																	Config.spider_tool_efficiency.get().floatValue(), 
-    																	(float) (Config.spider_tool_attackDamage.get() +0.5), 
+    																	Config.spider_tool_attackDamage.get().floatValue(), 
     																	Config.spider_tool_enchantability.get(), 
     																	RegisterItems.spider_poison_chitin.get());
     
     public static final IItemTier spiderFermented = new ToolMaterial(Config.spider_tool_harvestLevel.get(), 
-    																	(int) Math.round(Config.spider_tool_durability.get() * 1.25),
+    																	(int) Math.round(Config.spider_tool_durability.get() * 1.5),
     																	Config.spider_tool_efficiency.get().floatValue(), 
-    																	(float) (Config.spider_tool_attackDamage.get() +0.5), 
+    																	Config.spider_tool_attackDamage.get().floatValue(), 
     																	Config.spider_tool_enchantability.get(), 
     																	RegisterItems.spider_fermented_chitin.get());  
     
@@ -64,6 +64,13 @@ public class ToolMaterialbyItem {
     																	Config.shulker_tool_attackDamage.get().floatValue(), 
     																	Config.shulker_tool_enchantability.get(), 
     																	Items.SHULKER_SHELL);
+    
+    public static final IItemTier horror = new 		ToolMaterial(Config.horror_tool_harvestLevel.get(), 
+																		Config.horror_tool_durability.get(), 
+																		Config.horror_tool_efficiency.get().floatValue(),
+																		Config.horror_tool_attackDamage.get().floatValue(), 
+																		Config.horror_tool_enchantability.get(), 
+																		RegisterItems.parasite_starved.get());
     
     public static final IItemTier shark = new 			ToolMaterial(Config.shark_tool_harvestLevel.get(), 
     																	Config.shark_tool_durability.get(), 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:blaze_boots"
+  },
+  "addition": {
+    "item": "craftandhunt:strider_rock"
+  },
+  "result": {
+    "item": "craftandhunt:strider_boots"
+  }
+}

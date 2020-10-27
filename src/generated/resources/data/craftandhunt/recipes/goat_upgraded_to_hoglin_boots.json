@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:goat_boots"
+  },
+  "addition": {
+    "item": "craftandhunt:hoglin_leather"
+  },
+  "result": {
+    "item": "craftandhunt:hoglin_boots"
+  }
+}

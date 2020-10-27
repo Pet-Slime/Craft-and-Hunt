@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:guardian_upgraded_to_guardian_elder_boots"
+    ]
+  },
+  "criteria": {
+    "has_guardian_elder_skin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:guardian_elder_skin"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:guardian_upgraded_to_guardian_elder_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_guardian_elder_skin",
+      "has_the_recipe"
+    ]
+  ]
+}

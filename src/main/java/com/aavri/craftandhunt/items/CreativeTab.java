@@ -12,7 +12,7 @@ public class CreativeTab extends ItemGroup {
 	public final static CreativeTab HUNT = new CreativeTab();
 
     public CreativeTab(){
-        super("CaH");
+        super("cah");
     }
 
     @OnlyIn(Dist.CLIENT)

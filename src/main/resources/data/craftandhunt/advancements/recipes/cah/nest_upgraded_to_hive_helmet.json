@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:nest_upgraded_to_hive_helmet"
+    ]
+  },
+  "criteria": {
+    "has_beehive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:beehive"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:nest_upgraded_to_hive_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_beehive",
+      "has_the_recipe"
+    ]
+  ]
+}

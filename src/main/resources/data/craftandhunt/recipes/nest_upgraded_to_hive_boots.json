@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:nest_boots"
+  },
+  "addition": {
+    "item": "minecraft:beehive"
+  },
+  "result": {
+    "item": "craftandhunt:hive_boots"
+  }
+}

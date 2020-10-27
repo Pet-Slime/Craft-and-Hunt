@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:bee_upgraded_to_nest_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_bee_nest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bee_nest"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:bee_upgraded_to_nest_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bee_nest",
+      "has_the_recipe"
+    ]
+  ]
+}

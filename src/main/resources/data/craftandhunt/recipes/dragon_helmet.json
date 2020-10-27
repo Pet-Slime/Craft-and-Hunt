@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "test",
+  "pattern": [
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:dragon_scale"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:dragon_helmet"
+  }
+}

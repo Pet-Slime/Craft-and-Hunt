@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "nautilus_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:nautilus_shell"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:naut_chestplate"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:blaze_glass"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:blaze_glass_block_pane"
+  }
+}

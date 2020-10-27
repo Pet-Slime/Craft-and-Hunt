@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:bone_upgraded_to_stray_helmet"
+    ]
+  },
+  "criteria": {
+    "has_stray_cloth": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:stray_cloth"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:bone_upgraded_to_stray_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stray_cloth",
+      "has_the_recipe"
+    ]
+  ]
+}

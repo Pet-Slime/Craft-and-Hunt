@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bee_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:bee_chitin"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:bee_chestplate"
+  }
+}

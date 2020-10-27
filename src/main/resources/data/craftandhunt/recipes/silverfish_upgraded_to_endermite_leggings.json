@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:silverfish_leggings"
+  },
+  "addition": {
+    "item": "craftandhunt:endermite_mass"
+  },
+  "result": {
+    "item": "craftandhunt:endermite_leggings"
+  }
+}

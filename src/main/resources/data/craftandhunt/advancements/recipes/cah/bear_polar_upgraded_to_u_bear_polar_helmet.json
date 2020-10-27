@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:bear_polar_upgraded_to_u_bear_polar_helmet"
+    ]
+  },
+  "criteria": {
+    "dragon_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:dragon_helmet"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:bear_polar_upgraded_to_u_bear_polar_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragon_helmet",
+      "has_the_recipe"
+    ]
+  ]
+}

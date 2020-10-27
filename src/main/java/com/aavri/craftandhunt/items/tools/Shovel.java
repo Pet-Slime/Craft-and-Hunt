@@ -2,6 +2,8 @@ package com.aavri.craftandhunt.items.tools;
 
 import java.util.Random;
 
+import com.aavri.craftandhunt.init.RegisterEffects;
+
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
@@ -41,11 +43,20 @@ public class Shovel extends ShovelItem {
             target.addPotionEffect(new EffectInstance(Effect.get(25), 60, 1));
         }
         
-        if(item.contains("weapon_bone_attack")){
+        if(item.contains("weapon_splinter_attack")){
         	Random random = new Random();
         	if (random.nextInt(2) == 0) {
         		target.attackEntityFrom(DamageSource.GENERIC, 1.0F);
         		target.playSound(SoundEvents.ENTITY_SKELETON_HURT, 0.3F, 0.6F);
+        	}
+        }
+        
+        if(item.contains("weapon_bleed_attack")){
+        	EffectInstance bleed = target.getActivePotionEffect(RegisterEffects.BLEED);
+        	if (bleed != null) {
+        		target.addPotionEffect(new EffectInstance(RegisterEffects.BLEED, bleed.getDuration() + 60, bleed.getAmplifier() + 1));
+        	} else {
+        		target.addPotionEffect(new EffectInstance(RegisterEffects.BLEED, 60));
         	}
         }
 

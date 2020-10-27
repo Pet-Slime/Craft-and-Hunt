@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:spider_fermented_leggings"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_leggings"
+  },
+  "result": {
+    "item": "craftandhunt:u_spider_fermented_leggings"
+  }
+}

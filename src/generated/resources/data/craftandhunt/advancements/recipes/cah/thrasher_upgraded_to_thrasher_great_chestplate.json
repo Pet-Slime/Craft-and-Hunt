@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:thrasher_upgraded_to_thrasher_great_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_thrasher_great_skin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:thrasher_great_skin"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:thrasher_upgraded_to_thrasher_great_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_thrasher_great_skin",
+      "has_the_recipe"
+    ]
+  ]
+}

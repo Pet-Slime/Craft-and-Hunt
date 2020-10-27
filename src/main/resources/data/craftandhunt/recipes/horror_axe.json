@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "halloween_tools",
+  "pattern": [
+    "xx",
+    "xy",
+    " y"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:parasite_starved"
+    },
+    "y": {
+      "item": "craftandhunt:bloodied_branch_splinter"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:horror_axe"
+  }
+}

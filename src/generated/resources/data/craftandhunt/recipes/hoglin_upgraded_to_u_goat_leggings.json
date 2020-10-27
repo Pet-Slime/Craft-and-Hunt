@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:hoglin_leggings"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_leggings"
+  },
+  "result": {
+    "item": "craftandhunt:u_goat_leggings"
+  }
+}

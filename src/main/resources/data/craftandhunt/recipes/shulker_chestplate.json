@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shulker_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:shulker_chestplate"
+  }
+}

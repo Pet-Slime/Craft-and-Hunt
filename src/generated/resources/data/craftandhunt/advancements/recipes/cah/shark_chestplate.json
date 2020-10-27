@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:shark_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_shark_skin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:shark_skin"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:shark_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_shark_skin",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:bee_helmet"
+  },
+  "addition": {
+    "item": "minecraft:bee_nest"
+  },
+  "result": {
+    "item": "craftandhunt:nest_helmet"
+  }
+}

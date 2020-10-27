@@ -39,6 +39,16 @@ public class Config {
     public static ForgeConfigSpec.IntValue wither_enchantability;
     public static ForgeConfigSpec.IntValue wither_toughness;
     public static ForgeConfigSpec.IntValue wither_knockbackResistance;
+    
+	public static ForgeConfigSpec.BooleanValue halloween_armor_true;
+    public static ForgeConfigSpec.IntValue halloween_durabilityValue;
+    public static ForgeConfigSpec.IntValue halloween_helmDefense;
+    public static ForgeConfigSpec.IntValue halloween_legsdefense;
+    public static ForgeConfigSpec.IntValue halloween_chestdefense;
+    public static ForgeConfigSpec.IntValue halloween_bootsdefense;
+    public static ForgeConfigSpec.IntValue halloween_enchantability;
+    public static ForgeConfigSpec.IntValue halloween_toughness;
+    public static ForgeConfigSpec.IntValue halloween_knockbackResistance;
 
 	public static ForgeConfigSpec.BooleanValue blaze_armor_true;
     public static ForgeConfigSpec.IntValue blaze_durabilityValue;
@@ -89,6 +99,16 @@ public class Config {
     public static ForgeConfigSpec.IntValue bear_enchantability;
     public static ForgeConfigSpec.IntValue bear_toughness;
     public static ForgeConfigSpec.IntValue bear_knockbackResistance;
+    
+	public static ForgeConfigSpec.BooleanValue silverfish_armor_true;
+    public static ForgeConfigSpec.IntValue silverfish_durabilityValue;
+    public static ForgeConfigSpec.IntValue silverfish_helmDefense;
+    public static ForgeConfigSpec.IntValue silverfish_legsdefense;
+    public static ForgeConfigSpec.IntValue silverfish_chestdefense;
+    public static ForgeConfigSpec.IntValue silverfish_bootsdefense;
+    public static ForgeConfigSpec.IntValue silverfish_enchantability;
+    public static ForgeConfigSpec.IntValue silverfish_toughness;
+    public static ForgeConfigSpec.IntValue silverfish_knockbackResistance;
     
 	public static ForgeConfigSpec.BooleanValue wolf_armor_true;
     public static ForgeConfigSpec.IntValue wolf_durabilityValue;
@@ -210,6 +230,13 @@ public class Config {
     public static DoubleValue shulker_tool_efficiency;
     public static DoubleValue shulker_tool_attackDamage;
     public static ForgeConfigSpec.IntValue shulker_tool_enchantability;
+
+	public static ForgeConfigSpec.BooleanValue horror_tool_true;
+    public static ForgeConfigSpec.IntValue horror_tool_harvestLevel;
+    public static ForgeConfigSpec.IntValue horror_tool_durability;
+    public static DoubleValue horror_tool_efficiency;
+    public static DoubleValue horror_tool_attackDamage;
+    public static ForgeConfigSpec.IntValue horror_tool_enchantability;
     
     public static ForgeConfigSpec.IntValue drop_chance_spider_chitin;
     public static ForgeConfigSpec.IntValue drop_chance_bee_chitin;
@@ -234,6 +261,10 @@ public class Config {
     public static ForgeConfigSpec.IntValue drop_piglin_emblem;
     public static ForgeConfigSpec.IntValue drop_piglin_armbrace;
     
+
+    public static ForgeConfigSpec.IntValue drop_chance_silverfish_chitin;
+    public static ForgeConfigSpec.IntValue drop_chance_endermite_mass;
+    
 	public static ForgeConfigSpec.BooleanValue trader_bear_black_leather;
     public static ForgeConfigSpec.BooleanValue trader_bear_polar_leather;
     public static ForgeConfigSpec.BooleanValue trader_bear_panda_leather;
@@ -251,6 +282,9 @@ public class Config {
     public static ForgeConfigSpec.BooleanValue trader_deathcap;
     public static ForgeConfigSpec.BooleanValue trader_goat_hide;
     public static ForgeConfigSpec.BooleanValue trader_dragon_scale;
+    public static ForgeConfigSpec.BooleanValue trader_tasty_bone;
+    public static ForgeConfigSpec.BooleanValue trader_golem_kit;
+    public static ForgeConfigSpec.BooleanValue trader_buzzy_nest;
     
     public static ForgeConfigSpec.IntValue price_bear_black_leather;
     public static ForgeConfigSpec.IntValue price_bear_polar_leather;
@@ -269,6 +303,9 @@ public class Config {
     public static ForgeConfigSpec.IntValue price_deathcap;
     public static ForgeConfigSpec.IntValue price_goat_hide;
     public static ForgeConfigSpec.IntValue price_dragon_scale;
+    public static ForgeConfigSpec.IntValue price_tasty_bone;
+    public static ForgeConfigSpec.IntValue price_golem_kit;
+    public static ForgeConfigSpec.IntValue price_buzzy_nest;
     
     public static ForgeConfigSpec.BooleanValue calamari_true;
     public static ForgeConfigSpec.BooleanValue bearFlank_true;
@@ -318,6 +355,30 @@ public class Config {
         wither_enchantability = Builder.comment("Wither Enchantability Value (Default: 15).").defineInRange("wither_enchantability", 15, 1, 50);
         wither_toughness = Builder.comment("Wither Armor Toughness Value (Default: 0).").defineInRange("wither_toughness", 0, 0, 50);
         wither_knockbackResistance = Builder.comment("Wither Knockback Resistance Value (Default: 0).").defineInRange("wither_knockbackResistance", 0, 0, 50);
+        Builder.pop();
+        
+        Builder.push("halloween Armor");
+		halloween_armor_true				= Builder.comment("Should halloween Armor exist? (Default: True)").define("halloween_armor_true", true);
+        halloween_durabilityValue = Builder.comment("halloween Durability Value (Default: 10).").defineInRange("halloween_durabilityValue", 10, 1, 50);
+        halloween_bootsdefense = Builder.comment("halloween Boots Defense Value (Default: 3).").defineInRange("halloween_bootsdefense", 3, 1, 50);
+        halloween_legsdefense = Builder.comment("halloween Legs Defense Value (Default: 6).").defineInRange("halloween_legsdefense", 6, 1, 50);
+        halloween_chestdefense = Builder.comment("halloween Chest Defense Value (Default: 7).").defineInRange("halloween_chestdefense", 7, 1, 50);
+        halloween_helmDefense = Builder.comment("halloween Helm Defense Value (Default: 4).").defineInRange("halloween_helmDefense", 4, 1, 50);
+        halloween_enchantability = Builder.comment("halloween Enchantability Value (Default: 15).").defineInRange("halloween_enchantability", 15, 1, 50);
+        halloween_toughness = Builder.comment("halloween Armor Toughness Value (Default: 0).").defineInRange("halloween_toughness", 0, 0, 50);
+        halloween_knockbackResistance = Builder.comment("halloween Knockback Resistance Value (Default: 0).").defineInRange("halloween_knockbackResistance", 0, 0, 50);
+        Builder.pop();
+        
+        Builder.push("silverfish Armor");
+		silverfish_armor_true				= Builder.comment("Should Silverfish Armor exist? (Default: True)").define("silverfish_armor_true", true);
+        silverfish_durabilityValue = Builder.comment("Silverfish Durability Value (Default: 7).").defineInRange("silverfish_durabilityValue", 7, 1, 50);
+        silverfish_bootsdefense = Builder.comment("Silverfish Boots Defense Value (Default: 2).").defineInRange("silverfish_bootsdefense", 2, 1, 50);
+        silverfish_legsdefense = Builder.comment("Silverfish Legs Defense Value (Default: 5).").defineInRange("silverfish_legsdefense", 5, 1, 50);
+        silverfish_chestdefense = Builder.comment("Silverfish Chest Defense Value (Default: 6).").defineInRange("silverfish_chestdefense", 6, 1, 50);
+        silverfish_helmDefense = Builder.comment("Silverfish Helm Defense Value (Default: 2).").defineInRange("silverfish_helmDefense", 2, 1, 50);
+        silverfish_enchantability = Builder.comment("Silverfish Enchantability Value (Default: 30).").defineInRange("silverfish_enchantability", 30, 1, 50);
+        silverfish_toughness = Builder.comment("Silverfish Armor Toughness Value (Default: 0).").defineInRange("silverfish_toughness", 0, 0, 50);
+        silverfish_knockbackResistance = Builder.comment("Silverfish Knockback Resistance Value (Default: 0).").defineInRange("silverfish_knockbackResistance", 0, 0, 50);
         Builder.pop();
         
         Builder.push("Magma Armor");
@@ -396,7 +457,7 @@ public class Config {
         
         Builder.push("Goat Armor");
 		goat_armor_true				= Builder.comment("Should Goat Armor exist? (Default: True)").define("goat_armor_true", true);
-        goat_durabilityValue = Builder.comment("goat Durability Value (Default: 5).").defineInRange("goat_durabilityValue", 5, 1, 50);
+        goat_durabilityValue = Builder.comment("goat Durability Value (Default: 7).").defineInRange("goat_durabilityValue", 7, 1, 50);
         goat_bootsdefense = Builder.comment("goat Boots Defense Value (Default: 1).").defineInRange("goat_bootsdefense", 1, 1, 50);
         goat_legsdefense = Builder.comment("goat Legs Defense Value (Default: 2).").defineInRange("goat_legsdefense", 2, 1, 50);
         goat_chestdefense = Builder.comment("goat Chest Defense Value (Default: 2).").defineInRange("goat_chestdefense", 2, 1, 50);
@@ -482,7 +543,7 @@ public class Config {
         bone_tool_harvestLevel = Builder.comment("Bone Tools Harvest Level (Default: 1).").defineInRange(		"bone_tool_harvestLevel", 1, 1, 10);
         bone_tool_durability = Builder.comment("Bone Tools Durability (Default: 132).").defineInRange(			"bone_tool_durability", 132, 1, 50000);
         bone_tool_efficiency = Builder.comment("Bone Tools Efficiency (Default: 5.0).").defineInRange(			"bone_tool_efficiency", 5.0, 1, 50);
-        bone_tool_attackDamage = Builder.comment("Bone Tools Attack Damage (Default: 3.0).").defineInRange(		"bone_tool_attackDamage", 3.0, 1, 10);
+        bone_tool_attackDamage = Builder.comment("Bone Tools Attack Damage (Default: 3.0).").defineInRange(		"bone_tool_attackDamage", 3.0, 1, 50);
         bone_tool_enchantability = Builder.comment("Bone Tools Enchantability (Default: 15).").defineInRange(	"bone_tool_enchantability", 15, 1, 10);
         Builder.pop();
         
@@ -491,44 +552,53 @@ public class Config {
         spider_tool_harvestLevel = Builder.comment("Spider Tools Harvest Level (Default: 2).").defineInRange(		"spider_tool_harvestLevel", 2, 1, 50);
         spider_tool_durability = Builder.comment("Spider Tools Durability (Default: 132).").defineInRange(			"spider_tool_durability", 132, 1, 50000);
         spider_tool_efficiency = Builder.comment("Spider Tools Efficiency (Default: 6.0).").defineInRange(			"spider_tool_efficiency", 6.0, 1, 50);
-        spider_tool_attackDamage = Builder.comment("Spider Tools Attack Damage (Default: 3).").defineInRange(		"spider_tool_attackDamage", 3.0, 1, 50);
+        spider_tool_attackDamage = Builder.comment("Spider Tools Attack Damage (Default: 3.0).").defineInRange(		"spider_tool_attackDamage", 3.0, 1, 50);
         spider_tool_enchantability = Builder.comment("Spider Tools Enchantability (Default: 16).").defineInRange(	"spider_tool_enchantability", 16, 1, 50);
         Builder.pop();
         
         Builder.push("Wither Tools");
-		wither_tool_true				= Builder.comment("Should Wither Tools exist? (Default: True)").define("wither_tool_true", true);
+		wither_tool_true				= Builder.comment("Should Wither Tools exist? (Default: True)").define(		"wither_tool_true", true);
         wither_tool_harvestLevel = Builder.comment("Wither Tools Harvest Level (Default: 3).").defineInRange(		"wither_tool_harvestLevel", 3, 1, 50);
         wither_tool_durability = Builder.comment("Wither Tools Durability (Default: 330).").defineInRange(			"wither_tool_durability", 330, 1, 50000);
         wither_tool_efficiency = Builder.comment("Wither Tools Efficiency (Default: 5.0).").defineInRange(			"wither_tool_efficiency", 5.0, 1, 50);
-        wither_tool_attackDamage = Builder.comment("Wither Tools Attack Damage (Default: 4.5).").defineInRange(		"wither_tool_attackDamage", 4.5, 1, 50);
+        wither_tool_attackDamage = Builder.comment("Wither Tools Attack Damage (Default: 4.0).").defineInRange(		"wither_tool_attackDamage", 4.0, 1, 50);
         wither_tool_enchantability = Builder.comment("Wither Tools Enchantability (Default: 20).").defineInRange(	"wither_tool_enchantability", 20, 1, 50);
         Builder.pop();
         
         Builder.push("Magma Tools");
-		blaze_tool_true				= Builder.comment("Should Magma Tools exist? (Default: True)").define("blaze_tool_true", true);
+		blaze_tool_true				= Builder.comment("Should Magma Tools exist? (Default: True)").define(		"blaze_tool_true", true);
         blaze_tool_harvestLevel = Builder.comment("Magma Tools Harvest Level (Default: 3).").defineInRange(		"blaze_tool_harvestLevel", 3, 1, 10);
         blaze_tool_durability = Builder.comment("Magma Tools Durability (Default: 562).").defineInRange(		"blaze_tool_durability", 562, 1, 50000);
         blaze_tool_efficiency = Builder.comment("Magma Tools Efficiency (Default: 8.0).").defineInRange(		"blaze_tool_efficiency", 8.0, 1, 50);
-        blaze_tool_attackDamage = Builder.comment("Magma Tools Attack Damage (Default: 3.5).").defineInRange(		"blaze_tool_attackDamage", 3.5, 1, 10);
+        blaze_tool_attackDamage = Builder.comment("Magma Tools Attack Damage (Default: 4.0).").defineInRange(	"blaze_tool_attackDamage", 4.0, 1, 10);
         blaze_tool_enchantability = Builder.comment("Magma Tools Enchantability (Default: 24).").defineInRange(	"blaze_tool_enchantability", 24, 1, 50);
         Builder.pop();
         
         Builder.push("Shell Tools");
-		shell_tool_true				= Builder.comment("Should Shell Tools exist? (Default: True)").define("shell_tool_true", true);
+		shell_tool_true				= Builder.comment("Should Shell Tools exist? (Default: True)").define(		"shell_tool_true", true);
         shell_tool_harvestLevel = Builder.comment("Shell Tools Harvest Level (Default: 3).").defineInRange(		"shell_tool_harvestLevel", 3, 1, 10);
         shell_tool_durability = Builder.comment("Shell Tools Durability (Default: 562).").defineInRange(		"shell_tool_durability", 562, 1, 50000);
         shell_tool_efficiency = Builder.comment("Shell Tools Efficiency (Default: 9.5).").defineInRange(		"shell_tool_efficiency", 9.5, 1, 50);
-        shell_tool_attackDamage = Builder.comment("Shell Tools Attack Damage (Default: 4).").defineInRange(		"shell_tool_attackDamage", 4.0, 1, 10);
+        shell_tool_attackDamage = Builder.comment("Shell Tools Attack Damage (Default: 4.0).").defineInRange(	"shell_tool_attackDamage", 4.0, 1, 10);
         shell_tool_enchantability = Builder.comment("Shell Tools Enchantability (Default: 25).").defineInRange(	"shell_tool_enchantability", 25, 1, 50);
         Builder.pop();
         
         Builder.push("Shulkers Tools");
-		shulker_tool_true				= Builder.comment("Should Shulker Tools exist? (Default: True)").define("shulker_tool_true", true);
+		shulker_tool_true				= Builder.comment("Should Shulker Tools exist? (Default: True)").define(		"shulker_tool_true", true);
         shulker_tool_harvestLevel = 	Builder.comment("Shulker Tools Harvest Level (Default: 3).").defineInRange(		"shulker_tool_harvestLevel", 3, 1, 10);
         shulker_tool_durability = 		Builder.comment("Shulker Tools Durability (Default: 1024).").defineInRange(		"shulker_tool_durability", 1024, 1, 50000);
         shulker_tool_efficiency = 		Builder.comment("Shulker Tools Efficiency (Default: 3.5).").defineInRange(		"shulker_tool_efficiency", 3.5, 1, 50);
-        shulker_tool_attackDamage = 	Builder.comment("Shulker Tools Attack Damage (Default: 4).").defineInRange(		"shulker_tool_attackDamage", 4.0, 1, 10);
-        shulker_tool_enchantability = 	Builder.comment("Shulker Tools Enchantability (Default: 25).").defineInRange(	"shulker_tool_enchantability", 30, 1, 50);
+        shulker_tool_attackDamage = 	Builder.comment("Shulker Tools Attack Damage (Default: 4.0).").defineInRange(	"shulker_tool_attackDamage", 4.0, 1, 10);
+        shulker_tool_enchantability = 	Builder.comment("Shulker Tools Enchantability (Default: 25).").defineInRange(	"shulker_tool_enchantability", 25, 1, 50);
+        Builder.pop();
+        
+        Builder.push("Halloween Tools");
+ 		horror_tool_true				= Builder.comment("Should Halloween Tools exist? (Default: True)").define(			"horror_tool_true", true);
+        horror_tool_harvestLevel = 	Builder.comment("Halloween Tools Harvest Level (Default: 4).").defineInRange(			"horror_tool_harvestLevel", 4, 1, 10);
+        horror_tool_durability = 		Builder.comment("Halloween Tools Durability (Default: 1024).").defineInRange(		"horror_tool_durability", 1024, 1, 50000);
+        horror_tool_efficiency = 		Builder.comment("Halloween Tools Efficiency (Default: 9.5).").defineInRange(		"horror_tool_efficiency", 9.5, 1, 50);
+        horror_tool_attackDamage = 	Builder.comment("Halloween Tools Attack Damage (Default: 6.0).").defineInRange(		"horror_tool_attackDamage", 6.0, 1, 10);
+        horror_tool_enchantability = 	Builder.comment("Halloween Tools Enchantability (Default: 15).").defineInRange(	"horror_tool_enchantability", 15, 1, 50);
         Builder.pop();
         
         Builder.push("Shark Tools");
@@ -536,7 +606,7 @@ public class Config {
         shark_tool_harvestLevel = 	Builder.comment("Shark Tools Harvest Level (Default: 1).").defineInRange(		"shark_tool_harvestLevel", 1, 1, 10);
         shark_tool_durability = 		Builder.comment("Shark Tools Durability (Default: 16).").defineInRange(		"shark_tool_durability", 16, 1, 50000);
         shark_tool_efficiency = 		Builder.comment("Shark Tools Efficiency (Default: 10.0).").defineInRange(		"shark_tool_efficiency", 10.0, 1, 50);
-        shark_tool_attackDamage = 	Builder.comment("Shark Tools Attack Damage (Default: 10).").defineInRange(		"shark_tool_attackDamage", 10.0, 1, 10);
+        shark_tool_attackDamage = 	Builder.comment("Shark Tools Attack Damage (Default: 10.0).").defineInRange(		"shark_tool_attackDamage", 10.0, 1, 10);
         shark_tool_enchantability = 	Builder.comment("Shark Tools Enchantability (Default: 5).").defineInRange(	"shark_tool_enchantability", 5, 1, 50);
         Builder.pop();
 
@@ -551,6 +621,8 @@ public class Config {
         drop_chance_panda_leather		 = Builder.comment("Drop chance for panda leather  (Default: 24).").defineInRange(		"drop_chance_panda_leather", 	24, 0, 100);
         drop_chance_polar_leather		 = Builder.comment("Drop chance for polar leather  (Default: 24).").defineInRange(		"drop_chance_polar_leather", 	24, 0, 100);
         drop_chance_guardian_leather	 = Builder.comment("Drop chance for guardian hide (Default: 24).").defineInRange(		"drop_chance_guardian_leather", 24, 0, 100);
+        drop_chance_silverfish_chitin	 = Builder.comment("Drop chance for silverfish chitin  (Default: 24).").defineInRange(	"drop_chance_silverfish_chitin",24, 0, 100);
+        drop_chance_endermite_mass		 = Builder.comment("Drop chance for endermite mass  (Default: 24).").defineInRange(		"drop_chance_endermite_mass", 	24, 0, 100);
         drop_chance_shark_leather		 = Builder.comment("Drop chance for shark skin, thrasher skin, and great thrasher skin (Default: 24).").defineInRange(			"drop_chance_shark_leather", 	24, 0, 100);
         drop_chance_ghast				 = Builder.comment("Drop chance for Ghast's Flame Lung (Default: 1).").defineInRange(	"drop_chance_ghast", 			1, 0, 100);
         drop_chance_wither_skeleton		 = Builder.comment("Drop chance for Wither Skeleton Spine (Default: 1).").defineInRange("drop_chance_wither_skeleton", 	1, 0, 100);
@@ -597,6 +669,9 @@ public class Config {
 		trader_wind_horn			= Builder.comment("Should the trader sell Windhorn (Default: True).").define(					"trader_wind_horn",				true);
 		trader_goat_hide			= Builder.comment("Should the trader sell Goat Hide (Default: True).").define(					"trader_goat_hide",				true);
 		trader_dragon_scale			= Builder.comment("Should the trader sell End Dragon Scales (Default: True).").define(			"trader_dragon_scale",			true);
+		trader_tasty_bone			= Builder.comment("Should the trader sell Tasty Bones (Default: True).").define(				"trader_tasty_bone",			true);
+		trader_golem_kit			= Builder.comment("Should the trader sell Emergency Golem Kits (Default: True).").define(		"trader_golem_kit",				true);
+		trader_buzzy_nest			= Builder.comment("Should the trader sell Buzzy Nests (Default: True).").define(				"trader_buzzy_nest",			true);
         
         Builder.pop();
         
@@ -620,6 +695,9 @@ public class Config {
 		price_wind_horn				= Builder.comment("The price for Windhorn (Default: 64).").defineInRange(					"price_wind_horn",				64, 1, 128);
 		price_goat_hide				= Builder.comment("The price for Goat Hide (Default: 4).").defineInRange(					"price_goat_hide",				4, 1, 128);
 		price_dragon_scale			= Builder.comment("The price for End Dragon Scales (Default: 99).").defineInRange(			"price_dragon_scale",			99, 1, 128);
+		price_tasty_bone			= Builder.comment("The price for Tasty Bones (Default: 64).").defineInRange(				"price_tasty_bone",				64, 1, 128);
+		price_golem_kit				= Builder.comment("The price for Emergency Golem Kits (Default: 64).").defineInRange(		"price_golem_kit",				64, 1, 128);
+		price_buzzy_nest			= Builder.comment("The price for Buzzy Nests (Default: 64).").defineInRange(				"price_buzzy_nest",				64, 1, 128);
 		
 		
         Builder.pop();

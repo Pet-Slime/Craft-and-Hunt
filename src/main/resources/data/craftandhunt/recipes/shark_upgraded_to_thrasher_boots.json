@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:shark_boots"
+  },
+  "addition": {
+    "item": "craftandhunt:thrasher_skin"
+  },
+  "result": {
+    "item": "craftandhunt:thrasher_boots"
+  }
+}

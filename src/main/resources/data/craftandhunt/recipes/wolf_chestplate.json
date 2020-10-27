@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wolf_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:wolf_hide"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:wolf_chestplate"
+  }
+}

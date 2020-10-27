@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:naut_upgraded_to_turtle_boots"
+    ]
+  },
+  "criteria": {
+    "has_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:scute"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:naut_upgraded_to_turtle_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_scute",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:impact_slime"
+    ]
+  },
+  "criteria": {
+    "has_slimeball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:slimeballs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:impact_slime"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slimeball",
+      "has_the_recipe"
+    ]
+  ]
+}

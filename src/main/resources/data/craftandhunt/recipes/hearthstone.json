@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xzx"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:stone"
+    },
+    "y": {
+      "tag": "forge:gems/lapis"
+    },
+    "z": {
+      "tag": "forge:ender_pearls"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:hearthstone"
+  }
+}

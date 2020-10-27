@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:bear_polar_helmet"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_helmet"
+  },
+  "result": {
+    "item": "craftandhunt:u_bear_polar_helmet"
+  }
+}

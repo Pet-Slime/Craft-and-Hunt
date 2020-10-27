@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "craftandhunt:calamari"
+  },
+  "result": "craftandhunt:cooked_calamari",
+  "experience": 0.175,
+  "cookingtime": 100
+}

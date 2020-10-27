@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "yyy",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:ingots/gold"
+    },
+    "y": {
+      "item": "craftandhunt:piglin_emblem"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:piglin_gold_block"
+  }
+}

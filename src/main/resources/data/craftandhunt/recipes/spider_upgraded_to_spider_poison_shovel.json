@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:spider_shovel"
+  },
+  "addition": {
+    "item": "craftandhunt:spider_poison_chitin"
+  },
+  "result": {
+    "item": "craftandhunt:spider_shovel"
+  }
+}

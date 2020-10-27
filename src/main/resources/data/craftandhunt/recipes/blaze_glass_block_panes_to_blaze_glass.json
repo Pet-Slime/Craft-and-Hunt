@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "craftandhunt:blaze_glass_block_pane"
+    }
+  ],
+  "result": {
+    "item": "craftandhunt:blaze_glass",
+    "count": 3
+  }
+}

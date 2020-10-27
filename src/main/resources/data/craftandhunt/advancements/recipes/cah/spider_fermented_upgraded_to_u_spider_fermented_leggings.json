@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:spider_fermented_upgraded_to_u_spider_fermented_leggings"
+    ]
+  },
+  "criteria": {
+    "dragon_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:dragon_leggings"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:spider_fermented_upgraded_to_u_spider_fermented_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragon_leggings",
+      "has_the_recipe"
+    ]
+  ]
+}

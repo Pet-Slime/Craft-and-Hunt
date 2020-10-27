@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:wolf_leggings"
+    ]
+  },
+  "criteria": {
+    "has_wolf_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:wolf_hide"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:wolf_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wolf_hide",
+      "has_the_recipe"
+    ]
+  ]
+}

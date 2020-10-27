@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:spider_pickaxe"
+    ]
+  },
+  "criteria": {
+    "has_spider_chitin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:spider_chitin"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:spider_pickaxe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spider_chitin",
+      "has_the_recipe"
+    ]
+  ]
+}

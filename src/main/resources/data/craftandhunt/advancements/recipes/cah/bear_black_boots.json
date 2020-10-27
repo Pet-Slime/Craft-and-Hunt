@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:bear_black_boots"
+    ]
+  },
+  "criteria": {
+    "has_bear_black_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:bear_black_leather"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:bear_black_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bear_black_leather",
+      "has_the_recipe"
+    ]
+  ]
+}

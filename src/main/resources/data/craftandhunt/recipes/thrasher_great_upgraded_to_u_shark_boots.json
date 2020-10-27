@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craftandhunt:thrasher_great_boots"
+  },
+  "addition": {
+    "item": "craftandhunt:dragon_boots"
+  },
+  "result": {
+    "item": "craftandhunt:u_shark_boots"
+  }
+}

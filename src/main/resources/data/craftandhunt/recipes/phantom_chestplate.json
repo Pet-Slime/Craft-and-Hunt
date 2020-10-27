@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "phantom_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:phantom_chestplate"
+  }
+}

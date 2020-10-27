@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xzx"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:gems/diamond"
+    },
+    "y": {
+      "item": "minecraft:nether_star"
+    },
+    "z": {
+      "tag": "forge:gems/lapis"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:witch_know"
+  }
+}

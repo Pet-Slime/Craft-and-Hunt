@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magma_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:blaze_glass"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:blaze_chestplate"
+  }
+}

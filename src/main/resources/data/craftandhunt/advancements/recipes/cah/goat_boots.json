@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:goat_boots"
+    ]
+  },
+  "criteria": {
+    "has_goat_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:goat_hide"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:goat_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_goat_hide",
+      "has_the_recipe"
+    ]
+  ]
+}

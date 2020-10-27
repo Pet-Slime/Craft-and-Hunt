@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:silverfish_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_silverfish_chitin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:silverfish_chitin"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:silverfish_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silverfish_chitin",
+      "has_the_recipe"
+    ]
+  ]
+}

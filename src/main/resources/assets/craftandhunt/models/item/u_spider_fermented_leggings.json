@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "craftandhunt:armor/spider_fermented_leggings"
-    }
-}

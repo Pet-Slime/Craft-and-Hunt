@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "goat_armor",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "craftandhunt:goat_hide"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:goat_chestplate"
+  }
+}

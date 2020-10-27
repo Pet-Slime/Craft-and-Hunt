@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shell_tools",
+  "pattern": [
+    "x",
+    "x",
+    "y"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:scute"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "craftandhunt:shell_sword"
+  }
+}

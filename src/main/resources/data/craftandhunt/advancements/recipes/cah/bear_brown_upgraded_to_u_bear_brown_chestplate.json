@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:bear_brown_upgraded_to_u_bear_brown_chestplate"
+    ]
+  },
+  "criteria": {
+    "dragon_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:dragon_chestplate"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:bear_brown_upgraded_to_u_bear_brown_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragon_chestplate",
+      "has_the_recipe"
+    ]
+  ]
+}

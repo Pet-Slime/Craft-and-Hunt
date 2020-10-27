@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftandhunt:guardian_elder_upgraded_to_u_guardian_elder_helmet"
+    ]
+  },
+  "criteria": {
+    "dragon_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftandhunt:dragon_helmet"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftandhunt:guardian_elder_upgraded_to_u_guardian_elder_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragon_helmet",
+      "has_the_recipe"
+    ]
+  ]
+}
